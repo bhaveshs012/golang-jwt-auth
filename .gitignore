@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of the 'go build' command
+*.out
+
+# Directories
+bin/
+vendor/
+dist/
+
+# Go modules
+go.sum
+go.mod
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Logs and temp files
+*.log
+*.tmp
+*.test
+*.cover
+*.prof
+*.bak
+
+# Debug
+debug/
+
+# Dependency directories (e.g., Glide, Dep, Go Vendor)
+vendor/
+
+# Git-specific
+.DS_Store
+*.lock
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
